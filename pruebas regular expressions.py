@@ -15,7 +15,7 @@ def get_grado_polinomio(polinomio:str)->int:
 
 string = '-10x^100   +    3x^5-4x^3+5x-10'    
 print(re.sub(r'\s?([+-])\s?', lambda x: ' -' if x.group(1) == '-' else ' ', string).split())
-#aue hace group(1) ???? Please note that unlike string indexing, which always starts at 0, group numbering always starts at 1. https://pynative.com/python-regex-capturing-groups/
+#que hace group(1) ???? Please note that unlike string indexing, which always starts at 0, group numbering always starts at 1. https://pynative.com/python-regex-capturing-groups/
 '''
 expresiones regulares
 re.findall("^palabra",string)   busca al principio de la cadena
